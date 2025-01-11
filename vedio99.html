@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+  <meta charset="UTF-8">
+  <title>人事管理系统</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <style>
+    body {font-family: Arial, sans-serif; background-color: #f4f4f4; padding: 40px;}
+    img {max-width: 20%; height: auto;}
+  </style>
+</head>
+<body>
+<h1>仿小米商城</h1>
+<h2>技术使用</h2>
+<p>该项目是对小米商城系统的模仿，实现了从浏览商品到结算商品的整个过程。</p>
+<p>使用Scss、mixin来对公共样式抽离；对不同页面进行组件复用。</p>
+<p>商品展示图片使用vue-lazyload实现懒加载。</p>
+<p>通过vuex实现商品的状态管理，最终实现了登录、浏览商品并加入购物车、结算等功能。</p>
+<h2>部分功能</h2>
+<p>用户可以进行产品搜索，输入关键字就能快速定位到想要查看的产品。</p>
+<p>具有用户注册与登录功能，方便用户管理自己的信息、订单和收藏等。</p>
+<p>有促销活动展示，如限时折扣、满减优惠等，吸引用户购买产品。</p>
+<p>支持加入购物车功能，用户可以将多个产品加入购物车，对购物车中的产品数量、规格等进行调整。</p>
+<p>产品分类明确，比如按照产品类型分为手机通讯、智能生活、健康穿戴等不同板块，方便用户浏览。</p>
+<h2>部分页面展示</h2>
+<img src="images/hh.png.jpeg" alt="描述性标题" style="margin-right: 20px;margin-top: 20px;" >
+<img src="images/hh1.png.jpeg" alt="描述性标题" style="margin-right: 20px;">
+<img src="images/hh3.png.jpeg" alt="描述性标题">
+</body>
+<style>
+    body {font-family: Arial, sans-serif; background-color: #f4f4f4; margin-left: 90px;}
+    img {max-width: 100%; height: 16rem;}
+    .image-container {
+      display: flex;
+      justify-content: center;
+      align-items: center; 
+    }
+    img {
+      width: 400px; 
+      height: 300;
+    }
+  </style>
+</html>

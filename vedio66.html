@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+  <meta charset="UTF-8">
+  <title>数字博物馆</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <style>
+    body {font-family: Arial, sans-serif; background-color: #f4f4f4; padding: 40px;}
+    img {max-width: 20%; height: auto;}
+  </style>
+</head>
+<body>
+
+<h1>数字博物馆</h1>
+<h2>制作理念</h2>
+
+<p>利用3D建模技术可以全方位展示各种武器的外观、结构。例如，对于一把古老的剑，能够展示剑柄、剑身的纹理，剑刃的</p>
+<p>弧度等细节，这些细节可能在实体博物馆中由于展示条件限制难以被观众完全看到。 不仅展示单个武器，还可以展示武器</p>
+<p>的发展脉络。像从古代的冷兵器如矛、盾到近代的火枪，再到现代的高科技武器等，以3D模型的形式呈现不同时期武器的</p>
+<p>演变过程，让观众更直观地理解武器发展的历史进程。</p>
+<h2>制作步骤</h2>
+<p>使用Blender 等建模软件对物品进行三维模型的创建，并进行编辑和变形以调整模型的形状、细节和纹理等方面。</p>
+<p>在 Unity 3D 中，为实现与文物进行互动，采取对物体绑定Interactable组件和Box Collider组件添加感应区 域来实现对物体的接触。</p>
+<p>添加 Throwable 组件来实现对物体的抓取和释放的机制。</p>
+<p>同时 为了让物体释放后有更加现实的物理特性，添加Rigidbody组件，最终实现对物体的互动。</p>
+<h2>成果展示</h2>
+
+<img src="images/tt1.png" alt="描述性标题" style="margin-right: 20px;margin-top: 20px;" >
+<img src="images/tt2.png" alt="描述性标题" style="margin-right: 20px;">
+<img src="images/tt3.png" alt="描述性标题">
+
+</body>
+<style>
+    body {font-family: Arial, sans-serif; background-color: #f4f4f4; margin-left: 90px;}
+    img {max-width: 100%; height: 15rem;}
+    .image-container {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+	  
+	 
+    }
+    img {
+		
+      width: 400px; /* 设置宽度 */
+      height: 300;
+    }
+  </style>
+</html>
